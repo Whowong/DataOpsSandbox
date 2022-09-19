@@ -9,5 +9,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v1
+    
     - run: dotnet build /p:NetCoreBuild=true ./DatabaseProjectWideWorldImporters.sqlproj
+    
+    - uses: actions/upload-artifact@v3
+      with:
+          name: dacpac-artifact
+          path: ./bin/debug
     
