@@ -1,0 +1,10 @@
+c:\Users\msheltadm\Documents\SQLProjects\DatabaseProjectTestDB\bin\Debug\DatabaseProjectTestDB.dacpac
+c:\Users\msheltadm\Documents\SQLProjects\DatabaseProjectTestDB\bin\Debug\DatabaseProjectTestDB.dll
+c:\Users\msheltadm\Documents\SQLProjects\DatabaseProjectTestDB\bin\Debug\DatabaseProjectTestDB.pdb
+c:\Users\msheltadm\Documents\SQLProjects\DatabaseProjectTestDB\obj\Debug\DatabaseProjectTestDB.sqlprojAssemblyReference.cache
+c:\Users\msheltadm\Documents\SQLProjects\DatabaseProjectTestDB\obj\Debug\Model.xml
+c:\Users\msheltadm\Documents\SQLProjects\DatabaseProjectTestDB\obj\Debug\refactor.xml
+c:\Users\msheltadm\Documents\SQLProjects\DatabaseProjectTestDB\obj\Debug\postdeploy.sql
+c:\Users\msheltadm\Documents\SQLProjects\DatabaseProjectTestDB\obj\Debug\predeploy.sql
+c:\Users\msheltadm\Documents\SQLProjects\DatabaseProjectTestDB\obj\Debug\DatabaseProjectTestDB.dll
+c:\Users\msheltadm\Documents\SQLProjects\DatabaseProjectTestDB\obj\Debug\DatabaseProjectTestDB.pdb
