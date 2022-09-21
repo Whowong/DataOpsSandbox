@@ -37,5 +37,5 @@ jobs:
            sourcepath: Output
            outputpath: reports
            outputfile: 'deployreport.xml'
-           profile: DatabaseProjectTestDB.profile.xml
+           profile: DatabaseProjectTestDB.publish.xml
            authtoken: ${{ steps.sql-login.outputs.token }}
