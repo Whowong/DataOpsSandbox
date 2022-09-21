@@ -1,4 +1,6 @@
 # .github/workflows/sql-deploy.yml
+name: CI/CD Pipeline
+
 on: 
   push:
   workflow_dispatch:
