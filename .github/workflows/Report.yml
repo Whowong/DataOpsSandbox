@@ -28,12 +28,13 @@ jobs:
           # Canonical resource url for what you want the token for
           resource-url: "https://database.windows.net"
     
-    
+      - run: dotnet build /p:NetCoreBuild=true /p:OutputPath=./Output ./DatabaseProjectTestDB.sqlproj
+      
       - name: Identifying proposed changes
         uses: Azure/run-sqlpackage-action@v1.0.0
         with:
            action: 'DeployReport'
-           sourcepath: build
+           sourcepath: Output
            outputpath: reports
            outputfile: 'deployreport.xml'
            profile: DatabaseProjectTestDB.profile.xml
