@@ -19,6 +19,9 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
 
+ 
+      - run: dotnet build /p:NetCoreBuild=true /p:OutputPath=./Output ./DatabaseProjectTestDB.sqlproj
+
       - name: azure-resource-login
         uses: Azure/azure-resource-login-action@v1.0.0
         id: sql-login
@@ -27,9 +30,7 @@ jobs:
           creds: ${{ secrets.AZURE_CREDENTIALS }}
           # Canonical resource url for what you want the token for
           resource-url: "https://database.windows.net"
-    
-      - run: dotnet build /p:NetCoreBuild=true /p:OutputPath=./Output ./DatabaseProjectTestDB.sqlproj
-      
+          
       - name: Identifying proposed changes
         uses: Azure/run-sqlpackage-action@v1.0.0
         with:
