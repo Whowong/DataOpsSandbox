@@ -26,7 +26,7 @@ jobs:
           # Azure credentials for the service principal to log in
           creds: ${{ secrets.AZURE_CREDENTIALS }}
           # Canonical resource url for what you want the token for
-          resource-url: dataopssandbox.database.windows.net
+          resource-url: "dataopssandbox.database.windows.net"
     
     
       - name: Identifying proposed changes
