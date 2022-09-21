@@ -4,7 +4,7 @@
     <IncludeCompositeObjects>True</IncludeCompositeObjects>
     <TargetDatabaseName>WWI-Dev</TargetDatabaseName>
     <DeployScriptFileName>DatabaseProjectTestDB.sql</DeployScriptFileName>
-    <TargetConnectionString>Data Source=dataopssandbox.database.windows.net;Persist Security Info=False;User ID=azureuser;Pooling=False;MultipleActiveResultSets=False;Connect Timeout=60;Encrypt=False;TrustServerCertificate=False</TargetConnectionString>
+    <TargetConnectionString>Data Source=dataopssandbox.database.windows.net,1433;Persist Security Info=False;User ID=azureuser;Pooling=False;MultipleActiveResultSets=False;Connect Timeout=60;Encrypt=False;TrustServerCertificate=False</TargetConnectionString>
     <ProfileVersionNumber>1</ProfileVersionNumber>
   </PropertyGroup>
 </Project>
